@@ -9,6 +9,7 @@ export const auth = defineAuth({
   loginWith: {
     email: true,
     // add social providers
+    
     // externalProviders: {
     /**
      * first, create your secrets using `amplify sandbox secret`
