@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-gray-100 text-gray-800`}>
         <ConfigureAmplifyClientSide />
         {children}
       </body>

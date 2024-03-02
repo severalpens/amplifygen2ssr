@@ -21,20 +21,20 @@ async function App() {
     revalidatePath("/");
   }
 
-  return (
-    <>
-      <h1>Hello, Amplify 👋</h1>
-      {user && <Logout />}
-      <form action={addTodo}>
-        <input type="text" name="title" />
-        <button type="submit">Add Todo</button>
-      </form>
 
-      <ul>
-        {todos && todos.map((todo) => <li key={todo.id}>{todo.content}</li>)}
-      </ul>
-    </>
-  );
-}
+return (
+  <>
+    <h1 className="text-4xl font-bold text-center my-4">Hello, Amplify 👋</h1>
+    {user && <Logout />}
+    <form action={addTodo} className="flex flex-col items-center">
+      <input type="text" name="title" className="border p-2 rounded my-2" />
+      <button type="submit" className="bg-blue-500 text-white p-2 rounded my-2 hover:bg-blue-700">Add Todo</button>
+    </form>
+
+    <ul className="list-disc pl-5">
+      {todos && todos.map((todo) => <li key={todo.id} className="my-1">{todo.content}</li>)}
+    </ul>
+  </>
+);}
 
 export default App;
