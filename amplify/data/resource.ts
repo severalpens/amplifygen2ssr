@@ -17,7 +17,7 @@ const schema = a.schema({
       priority: a.enum(['low', 'medium', 'high'])
 // highlight-end
     })
-    .authorization([a.allow.owner(), a.allow.public().to(['read'])]),
+    .authorization([a.allow.owner()]),
 });
 
 // ...
