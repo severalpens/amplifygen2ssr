@@ -22,3 +22,15 @@ This is an implementation of the Amplify [quickstart work instruction](https://d
 - Run the following in separate terminal windows
   - `npm run dev` to start the Next.js development server
   - `npx amplify sandbox` to start the Amplify mock server
+- Make changes then
+  - `git add .`
+  - `git commit -m "new commit"`
+  - `git push`
+
+## Comments
+Code first means the no-sql database is updated automatically in the background to be in sync with any changes made to the model definitions on the front end.
+
+The API playground is an awkward location:
+- Go to the Amplify app in the aws console
+- Click on the green 'Deployed' text/button
+- The Authentication and Data (API) menus should appear
