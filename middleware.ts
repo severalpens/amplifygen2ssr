@@ -7,6 +7,7 @@ import { runWithAmplifyServerContext } from "@/utils/amplify-utils";
 
 export async function middleware(request: NextRequest) {
   const response = NextResponse.next();
+  
 
   const authenticated = await runWithAmplifyServerContext({
     nextServerContext: { request, response },

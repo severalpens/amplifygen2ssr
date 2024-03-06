@@ -6,6 +6,7 @@ import { AuthUser } from "aws-amplify/auth";
 import { redirect } from "next/navigation";
 import { useEffect } from "react";
 
+
 function Login({ user }: { user?: AuthUser }) {
   useEffect(() => {
     if (user) {
