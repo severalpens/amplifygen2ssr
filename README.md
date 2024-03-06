@@ -13,7 +13,6 @@ This is an implementation of the Amplify [quickstart work instruction](https://d
 - Next.js Server Components
 - Amplify Gen 2 (Code First DX) Hosting
 - Tailwind
-- REST API (Authenticated)
 
 
 ## Deployment instructions
