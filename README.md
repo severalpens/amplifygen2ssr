@@ -1,6 +1,6 @@
 # Amplify Gen 2 Quckstart (Next.js - Sever Components)
 
-This is an impliementation of the Amplify [quickstart work instruction](https://docs.amplify.aws/gen2/start/quickstart/nextjs-app-router-server-components/) using Next.js App Router (server Components).
+This is an implementation of the Amplify [quickstart work instruction](https://docs.amplify.aws/gen2/start/quickstart/nextjs-app-router-server-components/) using Next.js App Router (server Components).
 
 
 ## Hosted Site
